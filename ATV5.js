@@ -27,6 +27,7 @@ for(i=0; i<10; i++){
 console.log(`Os numeros par sao:${par}`);
 console.log(`Os numeros impar sao:${impar}`);
 */
+/*
 const numeroEscolhido = 7;
 for(i=0; i<=7; i++){
     const numero = Number(prompt("Digar um numero"));
@@ -39,3 +40,4 @@ for(i=0; i<=7; i++){
         break;
     }
 }
+*/
