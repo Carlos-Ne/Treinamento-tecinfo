@@ -41,3 +41,11 @@ for(i=0; i<=7; i++){
     }
 }
 */
+/*Atividade For*/
+/*
+const numero = Number(prompt("Diga um numero:"));
+for(i=numero; i>=1; i--){
+    console.log(i);
+}
+*/
+
