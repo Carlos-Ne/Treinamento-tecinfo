@@ -44,7 +44,7 @@ for(i=0; i<=7; i++){
 /*Atividade For*/
 /*1
 const numero = Number(prompt("Diga um numero:"));
-for(i=numero; i>=1; i--){
+for(i=1; i<=numero; i++){
     console.log(i);
 }
 */
@@ -58,15 +58,15 @@ for(i=2; i <= numero; i++){
 }
 console.log(`O seu numero ${numero} é ${par}`);
 */
-/*3*/
+
 /*
 const numero = (prompt("Digar o seu numero"));
 console.log(`Tabuada de ${numero}:`);
-for(let i = 1; i <= 10; i++){
+for(i = 1; i <= 10; i++){
 console.log(`${numero} x ${i} = ${numero * i}`);
 }
 */
-/*4*/
+
 /*
 let quadrado = 0;
 const numero = Number(prompt("Diga o numero escolhido"));
@@ -86,8 +86,21 @@ for(let i=1; i<=numero; i++){
 }
 */
 
-//1°
-/*const numero = Number(prompt("insira um numero"))
+/*
+for(let numero = 1; numero <= 100; numero++){
+    console.log(numero);
+}
+*/
+
+/*
+for(let numero = Number(prompt("Diga o numero:")); numero <= 100; numero++){
+    console.log(numero);
+}
+*/
+
+
+/*
+const numero = Number(prompt("insira um numero"))
 let acumulado = 0;
 for(i=1; i <= numero ; i++){
     acumulado +=  i;
@@ -95,42 +108,41 @@ for(i=1; i <= numero ; i++){
 console.log(acumulado);
 */
 
-
-//2°
-/*const numero = Number(prompt("Insira um numero"));
+/*
+const numero = Number(prompt("Insira um numero"));
 let divisiveis = 0;
 for(i=1;i<=numero;i++){
     if(i%3===0){
         divisiveis+=1;
     }
 }
-console.log(divisiveis);*/
+console.log(divisiveis);
+*/
 
-
-//3°
-/*const numero = Number(prompt("Insira um numero"));
+/*
+const numero = Number(prompt("Insira um numero"));
 let aux = 0;
 for(i=1; i<=numero;i++){
     if(i%2===0 && i%5===0){
           aux+=1
     }
 }
-console.log(aux);*/
+console.log(aux);
+*/
 
-
-//4°
-/*const numero = Number(prompt("Insira um numero"));
+/*
+const numero = Number(prompt("Insira um numero"));
 let aux = 0;
 for(i=1; i<=numero; i++){
     if(i % 10 === 0){
         aux +=1;
     }
 }
-console.log(aux);*/
+console.log(aux);
+*/
 
-
-//5°
-/*let aux = 0;
+/*
+let aux = 0;
 for(i=1; i<=3; i++){
     const valor = Number(prompt("Insira o valor"));
     const quantidade = (prompt("Insira a quantidade"));
@@ -138,28 +150,57 @@ for(i=1; i<=3; i++){
 
 
 }
-console.log(`Total= ${aux}}`);
+console.log(`Total= ${aux}`);
 */
-//____________________________________________________________________________
 
-
-//1°
-/*let aux = 0;
+/*
+let aux = 0;
 for(i=1;i<=5;i++){
     const valor = Number(prompt("Insira valor"));
     if(valor > aux){
         aux = valor
     }
 }
-console.log(`O maior valor é ${aux}`);*/
-
-
-/*let aux = 100000;
+console.log(`O maior valor é ${aux}`);
+*/
+/*
+let aux = 100000;
 for(i=1;i<=5;i++){
     const valor = Number(prompt("Insira valor"));
     if(aux > valor){
         aux = valor
     }
 }
-console.log(`O maior valor é ${aux}`);*/
+console.log(`O maior valor é ${aux}`);
+*/
 
+/*
+let numero = 1;
+while(numero <= 20){
+    if(numero % 2 ===0){
+        console.log(numero);
+    }
+    numero++;
+}
+*/
+
+/*
+let numero = 10;
+while(numero >= 1){
+    console.log(numero);
+    numero--
+}
+*/
+
+/*
+let soma=0;
+while(true){
+const numero = Number(prompt());
+if(numero > 0){
+    soma+=numero;
+}else{
+    break;
+}
+}
+console.log(soma);
+*/
