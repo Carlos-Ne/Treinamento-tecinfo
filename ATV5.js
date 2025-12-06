@@ -204,3 +204,13 @@ if(numero > 0){
 }
 console.log(soma);
 */
+
+/*
+let soma = 0;
+let numero;
+while(soma < 100){
+    numero = parseInt(prompt("Digar um numero:"));
+    soma += numero;
+    console.log(soma);
+}
+*/
