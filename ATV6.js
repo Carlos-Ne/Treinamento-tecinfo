@@ -154,13 +154,13 @@ for(i>=0;i=nome.length-1;i--){
 }*/
 
 //3°
-/*
+
 const nome = 'Manuel Neto';
 let nomeInvertido = "";
 for(i>=0;i=nome.length-1;i--){
     nomeInvertido+=nome[i]
 }
-console.log(nomeInvertido);*/
+console.log(nomeInvertido);
 
 /*
 let cons = 0;
@@ -175,4 +175,18 @@ while(true){
     }
 }
 console.log(`O valor total da compra é ${cons}`);
+*/
+/*
+let tmp;
+let somaTmp = 0;
+let numTmp = 0;
+while(true){
+    tmp = parseInt(prompt("Digar a temperatura:"));
+    if(tmp === 0){
+        break;
+    }
+    somaTmp += tmp;
+    numTmp += 1;
+}
+console.log(somaTmp/numTmp);
 */
