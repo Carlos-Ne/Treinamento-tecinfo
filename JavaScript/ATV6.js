@@ -155,12 +155,14 @@ for(i>=0;i=nome.length-1;i--){
 
 //3°
 
+/*
 const nome = 'Manuel Neto';
 let nomeInvertido = "";
 for(i>=0;i=nome.length-1;i--){
     nomeInvertido+=nome[i]
 }
 console.log(nomeInvertido);
+*/
 
 /*
 let cons = 0;

@@ -2,15 +2,15 @@
 const pontos = Number(prompt("Diga a pontuaçao final do jogador"));
 if(pontos > 1000){
     if(pontos >= 1000 && pontos <= 5000){
-        console.log("Intermediario");
+        alert("Intermediario");
     }else{
-        console.log("Avançado");
+        alert("Avançado");
     } 
 }else{
-    console.log("Iniciante")
+    alert("Iniciante")
 }
 */
-/*
+
 /*const notaAvaliacao = Number(prompt("Insira uma nota para o produto ( de 0 a 5)"));
 switch(notaAvaliacao){
     case 0: case 1:
