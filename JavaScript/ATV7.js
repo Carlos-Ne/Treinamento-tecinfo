@@ -109,7 +109,7 @@ function digaQualquerNome(nome){
 digaQualquerNome("Carlos")
 */
 
-/*
+/* 
 function calculo(numeroUm, numeroDois){
     const resultado = numeroUm + numeroDois;
     alert(resultado)
@@ -152,6 +152,12 @@ function endividado(receita, gastos){
         return "Está no Vermelho"
     }
 }
+
+const maria = endividado(5000, 9000);
+const joao = endividado(10000, 2000);
+
+alert(maria);
+alert(joao);
 */
 
 //ATIVIDADE FUNÇÂO
