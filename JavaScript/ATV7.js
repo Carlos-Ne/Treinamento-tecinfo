@@ -14,6 +14,7 @@ if(nomeInvertido === nome){
 */
 
 // Atividade de nova materia
+
 /*
 var perguntas = [
     "Telefonou para a vítima?",
@@ -26,7 +27,7 @@ var contadorSim = 0;
 for (var i = 0; i < perguntas.length; i++) {
     var resposta = prompt(perguntas[i]);
     
-    // Verifica se a resposta é "sim" (tratando letras maiúsculas/minúsculas)
+    
     if (resposta && resposta.toLowerCase().trim() === "sim") {
         contadorSim++;
     }
